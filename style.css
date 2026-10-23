@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.settings {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.settings i {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
